@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher2.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-xxxhdpi/ic_launcher2.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_profile.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-xxxhdpi/ic_profile.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/profilepic.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-xxxhdpi/profilepic.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

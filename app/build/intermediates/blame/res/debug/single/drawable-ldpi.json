@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_map.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_map.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_assistant.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_assistant.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_money.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_money.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_border.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_border.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_navigates.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_navigates.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_event_note_black_24dp.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_event_note_black_24dp.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_settings.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_collections.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_collections.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_globe.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_globe.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_tag.png",
+        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-ldpi/ic_tag.png"
+    }
+]

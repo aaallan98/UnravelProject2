@@ -1,0 +1,7 @@
+#Wed Dec 28 14:07:01 KST 2016
+base.0=/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a93f290d634f680d95a723a81b09359d90586162
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8b689e54f011878ae59cf2658dec1c15ffb0e90b/classes.dex
+base.1=/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8b689e54f011878ae59cf2658dec1c15ffb0e90b
+file.0=/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a93f290d634f680d95a723a81b09359d90586162/classes.dex
