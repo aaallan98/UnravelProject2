@@ -1,54 +1,54 @@
 [
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_globe.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_globe.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\intrologo.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\drawable-xxxhdpi\\intrologo.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/travel.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/drawable-xxxhdpi/travel.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_border.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_border.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_border.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_border.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_money.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_money.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/intrologo.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/drawable-xxxhdpi/intrologo.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_event_note_black_24dp.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_event_note_black_24dp.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/diarylogo.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/drawable-xxxhdpi/diarylogo.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\diarylogo.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\drawable-xxxhdpi\\diarylogo.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_event_note_black_24dp.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_event_note_black_24dp.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_globe.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_globe.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_money.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_money.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_tag.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_tag.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_map.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_map.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_assistant.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_assistant.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_settings.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_settings.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_collections.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_collections.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_collections.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_collections.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_navigates.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_navigates.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_assistant.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_assistant.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\travel.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\drawable-xxxhdpi\\travel.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_tag.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_tag.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_map.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_map.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_navigates.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_navigates.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_settings.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings.png"
     }
 ]

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher2.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-mdpi/ic_launcher2.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-mdpi/profilepic.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-mdpi/profilepic.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_profile.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\mipmap-mdpi\\ic_profile.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_profile.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-mdpi/ic_profile.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher2.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher2.png"
     },
     {
-        "merged": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/apple/AndroidStudioProjects/Unravelcurrency/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\profilepic.png",
+        "source": "C:\\Users\\user\\Desktop\\UnravelProject2\\app\\src\\main\\res\\mipmap-mdpi\\profilepic.png"
     }
 ]

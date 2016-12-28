@@ -173,8 +173,8 @@ public class MainActivity2 extends AppCompatActivity
             //Set the fragment initially
             Toast.makeText(this, "Currency", Toast.LENGTH_SHORT).show();
             try {
-                Intent intents = new Intent(this, MainActivityCurrency.class);
-                startActivity(intents);
+                //Intent intents = new Intent(this, MainActivityCurrency.class);
+                //startActivity(intents);
             }
             catch(Exception e){
                 e.printStackTrace();
