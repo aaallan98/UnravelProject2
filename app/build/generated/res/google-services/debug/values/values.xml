@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">825181236847-5smu9j5tiljf6ga7pffiee1qf8m16tko.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://unravel-75c47.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">825181236847</string>
-    <string name="google_api_key" translatable="false">AIzaSyBmPYbzKduzQ4YxzRScO1pDhdUhZIs4Elo</string>
-    <string name="google_app_id" translatable="false">1:825181236847:android:bbd3a03c9f43bd7c</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBmPYbzKduzQ4YxzRScO1pDhdUhZIs4Elo</string>
-    <string name="google_storage_bucket" translatable="false">unravel-75c47.appspot.com</string>
+    <string name="default_web_client_id" translatable="false">850872900568-i9djjt3kaqhl4mg4ov5lh405el8v81qo.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://unravelproject2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">850872900568</string>
+    <string name="google_api_key" translatable="false">AIzaSyCCgBWn1hk7mcqMJYO2sWz6Vqa6P4-Cuj4</string>
+    <string name="google_app_id" translatable="false">1:850872900568:android:bbd3a03c9f43bd7c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCCgBWn1hk7mcqMJYO2sWz6Vqa6P4-Cuj4</string>
+    <string name="google_storage_bucket" translatable="false">unravelproject2.appspot.com</string>
 </resources>
