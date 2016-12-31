@@ -208,12 +208,12 @@ public class MainActivity2 extends AppCompatActivity
         else if (id == R.id.nav_explore)  {
             Toast.makeText(this, "Explore", Toast.LENGTH_SHORT).show();
 
-            CountryFragment fragment = new CountryFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, fragment);
-            fragmentTransaction.addToBackStack(null);
-            fragmentTransaction.commit();
+       //     CountryFragment fragment = new CountryFragment();
+       //     android.support.v4.app.FragmentTransaction fragmentTransaction =
+       //             getSupportFragmentManager().beginTransaction();
+       //     fragmentTransaction.replace(R.id.fragment_container, fragment);
+       //     fragmentTransaction.addToBackStack(null);
+       //     fragmentTransaction.commit();
         }
 
 

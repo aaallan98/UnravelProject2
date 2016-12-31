@@ -28,12 +28,12 @@
         "source": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_event_note_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\travel.png",
-        "source": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\src\\main\\res\\drawable-xhdpi\\travel.png"
-    },
-    {
         "merged": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_globe.png",
         "source": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_globe.png"
+    },
+    {
+        "merged": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\travel.png",
+        "source": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\src\\main\\res\\drawable-xhdpi\\travel.png"
     },
     {
         "merged": "C:\\Users\\seoye\\Desktop\\CS\\CSE219\\Android\\UnravelProject2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings.png",
