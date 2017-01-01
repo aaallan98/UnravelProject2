@@ -4303,7 +4303,7 @@ containing a value of this type.
         public static final int snap=0x7f0f0027;
         public static final int spacer=0x7f0f0092;
         public static final int spinner_from=0x7f0f00fd;
-        public static final int spinner_to=0x7f0f00fe;
+        public static final int spinner_to=0x7f0f00ff;
         public static final int split_action_bar=0x7f0f0016;
         public static final int src_atop=0x7f0f002b;
         public static final int src_in=0x7f0f002c;
@@ -4332,7 +4332,7 @@ containing a value of this type.
         public static final int textView5=0x7f0f0113;
         public static final int textView6=0x7f0f0114;
         public static final int textView7=0x7f0f0115;
-        public static final int textView_from=0x7f0f00ff;
+        public static final int textView_from=0x7f0f00fe;
         public static final int textView_to=0x7f0f0100;
         public static final int text_empty_message=0x7f0f00eb;
         public static final int text_input_password_toggle=0x7f0f00fa;
