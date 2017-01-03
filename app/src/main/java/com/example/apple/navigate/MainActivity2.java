@@ -198,15 +198,19 @@ public class MainActivity2 extends AppCompatActivity
                 //                getSupportFragmentManager().beginTransaction();
                 //      fragmentTransaction.replace(R.id.fragment_container, fragment);
                 //    fragmentTransaction.commit();
-                Log.d("MAuth","Logout Clicked");
-                try {
-                    Intent intents = new Intent(this, LogoutActivity.class);
-                    startActivity(intents);
-                    //setContentView(R.layout.activity_logout);
-                }
-                catch(Exception e){
-                    e.printStackTrace();
-                }
+            }
+                else if (id == R.id.nav_logout){
+                    Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
+
+                    Log.d("MAuth","Logout Clicked");
+                    try {
+                        Intent intents = new Intent(this, LogoutActivity.class);
+                        startActivity(intents);
+                        //setContentView(R.layout.activity_logout);
+                    }
+                    catch(Exception e){
+                        e.printStackTrace();
+                    }
             }
 
 

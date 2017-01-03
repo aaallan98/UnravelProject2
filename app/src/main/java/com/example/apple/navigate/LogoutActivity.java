@@ -38,7 +38,7 @@ public class LogoutActivity extends AppCompatActivity {
             }
         };
 
-        mLogOutBtn = (Button) findViewById(R.id.logOutBtn);
+        mLogOutBtn = (Button) findViewById(R.id.nav_logout);
         Log.d("MAuth","Inside Logout Act.");
 
         mLogOutBtn.setOnClickListener(new View.OnClickListener() {
