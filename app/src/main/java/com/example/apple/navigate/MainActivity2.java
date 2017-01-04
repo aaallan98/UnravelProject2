@@ -110,7 +110,12 @@ public class MainActivity2 extends AppCompatActivity
                 e.printStackTrace();
             }
         }
+        else if (id == R.id.activity_nightmode)   {
+            Toast.makeText(this, "Night Mode", Toast.LENGTH_SHORT).show();
+            Intent intents = new Intent(this, NightmodeActivity.class);
+            startActivity(intents);
 
+        }
 
 
         return super.onOptionsItemSelected(item);
@@ -190,8 +195,8 @@ public class MainActivity2 extends AppCompatActivity
         else if (id == R.id.nav_settings)  {
             Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
 
-            if (id == R.id.nav_settings) {
-                Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
+           // if (id == R.id.nav_settings) {
+             //   Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
 
                 //SettingsFragment fragment = new SettingsFragment();
                 //         android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -214,7 +219,7 @@ public class MainActivity2 extends AppCompatActivity
             }
 
 
-        }
+
 
         else if (id == R.id.nav_explore)  {
             Toast.makeText(this, "Explore", Toast.LENGTH_SHORT).show();
