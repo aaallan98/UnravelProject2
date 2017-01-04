@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -79,7 +80,7 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
             mMap.clear();
             LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
             mMap.addMarker(new MarkerOptions().position(latLng).title("Marker"));           //add marker on it
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,10));
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,8));
         }
     }
 
@@ -107,7 +108,9 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return;
         }
+        Toast.makeText(getActivity(), "Enable location permission", Toast.LENGTH_SHORT).show();
         mMap.setMyLocationEnabled(true);
+        return;
     }
 
     public Action getIndexApiAction() {

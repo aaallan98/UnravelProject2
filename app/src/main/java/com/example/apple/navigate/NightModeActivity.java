@@ -27,15 +27,10 @@ public class NightmodeActivity extends AppCompatActivity {
 
         final SharedPreferences settings = getSharedPreferences("nightMode", 0);
 
-        // Edit'
+        //set default theme
         defaultNightMode = settings.getBoolean("nightMode", false);
-        //Log.d("NIGHTMODE : ", String.valueOf(defaultNightMode));
         if(!defaultNightMode) { nightMode.setChecked(true);  }
         else {nightMode.setChecked(false);}
-
-        // save local settings
-
-        // SharedPreferences.Editor editor = settings.edit();
 
 
 
@@ -44,10 +39,9 @@ public class NightmodeActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                 if(!nightMode.isChecked())
                 {
-
+                    //if switch is off, set daymode
                     AppCompatDelegate
                             .setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                    //   Toast.makeText(this, "Nightmode on", Toast.LENGTH_SHORT).show();
                     SharedPreferences.Editor editor = settings.edit();
                     editor.putBoolean("nightMode", false);
                     editor.commit();
@@ -55,20 +49,19 @@ public class NightmodeActivity extends AppCompatActivity {
                 }
                 else
                 {
+                    //if switch is on, set nightmode
                     AppCompatDelegate
                             .setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                    //  Toast.makeText(this, "Nightmode off", Toast.LENGTH_SHORT).show();
                     SharedPreferences.Editor editor = settings.edit();
                     editor.putBoolean("nightMode", true);
                     editor.commit();
                 }
-
             }
 
         });
-
     }
 
+    //retain state of switch
     @Override
     public void onPause() {
         super.onPause();
@@ -80,7 +73,6 @@ public class NightmodeActivity extends AppCompatActivity {
         super.onResume();
         nightMode.setChecked(load());
     }
-
 
     private void save(final boolean isChecked) {
         SharedPreferences sharedPreferences = getPreferences(Context.MODE_PRIVATE);
