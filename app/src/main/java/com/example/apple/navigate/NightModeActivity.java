@@ -6,6 +6,7 @@ import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatDelegate;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 public class NightmodeActivity extends AppCompatActivity {
 
     private Switch nightMode;
+    private boolean defaultNightMode = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,21 @@ public class NightmodeActivity extends AppCompatActivity {
 
 
         nightMode = (Switch) findViewById(R.id.nightmode);
+
+        final SharedPreferences settings = getSharedPreferences("nightMode", 0);
+
+        // Edit'
+        defaultNightMode = settings.getBoolean("nightMode", false);
+        //Log.d("NIGHTMODE : ", String.valueOf(defaultNightMode));
+        if(!defaultNightMode) { nightMode.setChecked(true);  }
+        else {nightMode.setChecked(false);}
+
+        // save local settings
+
+        // SharedPreferences.Editor editor = settings.edit();
+
+
+
         nightMode.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
@@ -31,7 +48,9 @@ public class NightmodeActivity extends AppCompatActivity {
                     AppCompatDelegate
                             .setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                     //   Toast.makeText(this, "Nightmode on", Toast.LENGTH_SHORT).show();
-
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putBoolean("nightMode", false);
+                    editor.commit();
 
                 }
                 else
@@ -39,6 +58,9 @@ public class NightmodeActivity extends AppCompatActivity {
                     AppCompatDelegate
                             .setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                     //  Toast.makeText(this, "Nightmode off", Toast.LENGTH_SHORT).show();
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putBoolean("nightMode", true);
+                    editor.commit();
                 }
 
             }
