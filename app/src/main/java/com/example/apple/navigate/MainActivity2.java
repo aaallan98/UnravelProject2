@@ -3,10 +3,12 @@ import android.app.DatePickerDialog;
 import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatDelegate;
 import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -32,6 +34,13 @@ public class MainActivity2 extends AppCompatActivity
     Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        // check if night mode is on and act accordingly
+        final SharedPreferences settings = getSharedPreferences("nightMode", 0);
+        boolean night = settings.getBoolean("nightMode", false);
+        if (night)  AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        else  AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

@@ -36,8 +36,8 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
         // Required empty public constructor
     }
 
-    private EditText location_tf;           //textbox for input place
-    private Button searchbutton;            //search button
+    private EditText location_tf;
+    private Button searchbutton;
     private GoogleMap mMap;
     private GoogleApiClient client;
 
@@ -49,9 +49,9 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
         location_tf = (EditText) v.findViewById(R.id.TFaddress);
         searchbutton = (Button) v.findViewById(R.id.Bsearch);
         searchbutton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {                           //if click search button go to onSearch function
-                // Perform action on click
-                onSearch();                                         //search map
+            public void onClick(View v) {
+                // Perform action on click -> search map
+                onSearch();
             }
         });
 
@@ -60,15 +60,13 @@ public class GMapFragment extends Fragment implements OnMapReadyCallback {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         setUpMapIfNeeded();
-
         return v;
     }
 
-
+    //Search on map and mark
     private void onSearch() {
-        String location = location_tf.getText().toString();                                 //getting string from textbox
+        String location = location_tf.getText().toString();
         List<Address> addressList = null;
         if (location != null || !location.equals("")) {
             Geocoder geocoder = new Geocoder(getActivity());

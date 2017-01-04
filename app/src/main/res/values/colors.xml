@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#4da6ff</color>
     <color name="colorPrimaryDark">#3574b2</color>
-    <color name="colorAccent">#94c9ff</color>
+    <color name="colorAccent">#97bbdd</color>
 
     <color name="screen1">#E91E63</color>
     <color name="screen2">#9C27B0</color>
@@ -42,7 +42,7 @@
 
     <color name="colorPrimaryNight">#3f51b5</color>
     <color name="colorPrimaryDarkNight">#303f9f</color>
-    <color name="colorAccentNight">#979fcf</color>
+    <color name="colorAccentNight">#83afda</color>
     <color name="textColorPrimaryNight">#FFFFFF</color>
     <color name="colorBackgroundNight">#000000</color>
 </resources>

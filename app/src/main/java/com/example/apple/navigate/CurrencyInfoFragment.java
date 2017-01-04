@@ -17,10 +17,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-
+//This fragment is for giving currency information. It supports countries and flags list based on currency.
 public class CurrencyInfoFragment extends ListFragment {
 
-    // ListView list;
+    // getting list of countries and flags
     String[] countryname = {" ",
             "AUD (Australia)",
             "BGN (Bulgarian)",
@@ -59,23 +59,20 @@ public class CurrencyInfoFragment extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
+        //Add country name and flag for each country
         HashMap<String, String> map = new HashMap<String,String>();
         for(int i=0;i<countryname.length;i++)   {
             map=new HashMap<String, String>();
             map.put("Country Name",countryname[i]);
             map.put("Flag",Integer.toString(flag[i]));
-
             curinfo.add(map);
         }
         String[] from = {"Country Name","Flag"};
         int[] to = {R.id.txt, R.id.img};
         simpleAdapter =new SimpleAdapter(getActivity(), curinfo, R.layout.currency_flag_list, from, to);
         setListAdapter(simpleAdapter);
-
         return super.onCreateView(inflater, container, savedInstanceState);
     }
-
 }
 
 
